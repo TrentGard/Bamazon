@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>bamazon</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>name</key>
+			<string>root@127.0.0.1</string>
+			<key>port</key>
+			<integer>3306</integer>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK0HCBUWFxgZHSQoLDA0VSRudWxs0wkK
+			CwwQFFdOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzow0OD4ACgAOA
+			BKMREhOABYAGgAiADFR0eXBlVHJvd3NUa2V5c18QJlNlbGVjdGlv
+			bkRldGFpbFR5cGVQcmltYXJ5S2V5ZWREZXRhaWxz0wkKCxobHKCg
+			gAfSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxl
+			RGljdGlvbmFyeaMgIiNcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00goL
+			JSehJoAJgAvSCykqK1lOUy5zdHJpbmeACldpdGVtX2lk0h4fLS5f
+			EA9OU011dGFibGVTdHJpbmejLS8jWE5TU3RyaW5n0h4fMTJeTlNN
+			dXRhYmxlQXJyYXmjMTMjV05TQXJyYXnSHh8iNaIiI18QD05TS2V5
+			ZWRBcmNoaXZlctE4OVRkYXRhgAEACAARABoAIwAtADIANwBFAEsA
+			UgBaAGUAbABwAHIAdAB2AHoAfAB+AIAAggCHAIwAkQC6AMEAwgDD
+			AMUAygDVAN4A9AD4AQUBDgETARUBFwEZAR4BKAEqATIBNwFJAU0B
+			VgFbAWoBbgF2AXsBfgGQAZMBmAAAAAAAAAIBAAAAAAAAADoAAAAA
+			AAAAAAAAAAAAAAGa
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{1, 0}, {747, 512}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Lamp", "I Love Lamp", 5000, 50);</string>
+			<key>table</key>
+			<string>products</string>
+			<key>view</key>
+			<string>SP_VIEW_CONTENT</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>200</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Lamp", "I Love Lamp", 5000, 50)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Couch", "Furniture", 500, 50)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Chair", "Furniture", 50, 50)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Coffe Table", "Furniture", 300, 50)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Purdue Championships", "LOL", 1000000, 0)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Dak Prescott Jersey", "Junk", 1, 1000)</string>
+		<string>INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Hoosiers Jersey", "Apparel", 100, 100)</string>
+		<string>INSERT INTO products ('product_name', 'department_name', 'price', 'stock_quantity')
+VALUES ("Hoosiers Jersey", "Apparel", 100, 100)</string>
+		<string>INSERT INTO TABLE products ('product_name', 'department_name', 'price', 'stock_quantity')
+VALUES ("Hoosiers Jersey", "Apparel", 100, 100)</string>
+		<string>VALUES ('Hoosiers Jersey','Apparel',100,100)</string>
+		<string>INSERT INTO TABLE products ('product_name', 'department_name', 'price', 'stock_quantity'),
+VALUES ('Hoosiers Jersey','Apparel',100,100)</string>
+		<string>INSERT INTO TABLE products ('product_name', 'department_name', 'price', 'stock_quantity')
+	VALUES ('Hoosiers Jersey','Apparel',100,100)</string>
+		<string>INSERT INTO TABLE products ('product_name', 'department_name', 'price', 'stock_quantity')
+VALUES ('Hoosiers Jersey','Apparel',100,100)</string>
+		<string>INSERT products ('product_name', 'department_name', 'price', 'stock_quantity')
+VALUES ('Hoosiers Jersey','Apparel',100,100)</string>
+		<string>INSERT INTO products ('product_name', 'department_name', 'price', 'stock_quantity')
+VALUES ('Hoosiers Jersey','Apparel',100,100)</string>
+		<string>INSERT INTO products ('product_name', 'department_name', 'price', 'stock_quantity')
+VALUES ('IU Jersey','Apparel',100,100)</string>
+		<string>'product_name', 'department_name', 'price', 'stock_quantity')
+	VALUES ('IU Jerse</string>
+		<string>INSERT INTO products ('product_name', 'department_name', 'price', 'stock_quantity')
+	VALUES ('IU Jersey', 'Apparel', 100, 100)</string>
+		<string>INSERT INTO products ('product_name', 'department_name', 'price', 'stock_quantity')
+VALUES ('IU Jersey', 'Apparel', 100, 100)</string>
+		<string>INSERT INTO products ('product_name', 'department_name', 'price', 'stock_quantity')
+	VALUES ('IU Jersey', 'Apparel', '100', '100')</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.18</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
